@@ -1,0 +1,85 @@
+REM Lock Me 0.4 - Le script ouvre un Notepad, Marque un message au sujet du verrouillage de l'ordinateur - by SurfKahuna (RJC) Fork by Vitriia 
+Delay 5000
+WINDOWS d
+Delay 2000
+WINDOWS r
+DELAY 200
+STRING notepad.exe
+ENTER
+DELAY 300
+STRING           , ,\ ,'\,'\ ,'\ ,\ ,
+ENTER
+STRING     ,  ,\/ \' `'     `   '  /|
+ENTER
+STRING     |\/                      |
+ENTER
+STRING     :                        |
+ENTER
+STRING     :                        |
+ENTER
+STRING      |                       |
+ENTER
+STRING      |                       |
+ENTER
+STRING      :               -.     _|
+ENTER
+STRING      :                \     `.
+ENTER
+STRING      |         ________:______\
+ENTER
+STRING      :       ,'o       / o    ,
+ENTER
+STRING      :       \       ,'-----./
+ENTER
+STRING       \_      `--.--'        )
+ENTER
+STRING      ,` `.              ,---'|
+ENTER
+STRING      : `                     |
+ENTER
+STRING       `,-'                   |
+ENTER
+STRING       /      ,---.          ,'
+ENTER
+STRING    ,-'            `-,------'
+ENTER
+STRING    `.        ,--'
+ENTER
+STRING      `-.____/
+ENTER
+STRING             \
+ENTER
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+STRING Je vais apprendre à verrouiller mon ordinateur.
+ENTER
+ENTER
+STRING Juste comme Bart Simpson
+ENTER
+ENTER
+STRING Rappelle-toi de verrouiller ton ordinateur quand tu t'absente ;)
+ENTER
+ENTER
+STRING Merci :)
+ENTER
+DELAY 100
+ALT SPACE
+STRING n
+
