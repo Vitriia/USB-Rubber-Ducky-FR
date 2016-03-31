@@ -1,0 +1,10 @@
+-Loads both HiD and Mass storage capabilities. 
+-	              Speed improvement makes Ducky MSC(Mass Storage) 2x faster.
+-	              Speed Tests: average read/write 150-155KB/s
+-	              (Previous results were 88KB/s, results are from a working 
+-		      sdcard supplied with the Ducky)
+-		      
+-		      
+-This was another one of my goals (in addition to several requests). Got a working PoC in time for the 1-year anniversary! (Originally, I was holding this back as a X-mas gift. But someone quick spotted it, as I was cleaning up the SVN). So I decided to publish a little earlier.
+-Version 2 has added improvements - multi OS support, downside memory is limited to 4KB (2048 key presses).
+-Nicknamed * The Twin Duck * as it functions as 2x separate Duckies; its primary function is mass-storage, and the HID attack is auto-triggered.
