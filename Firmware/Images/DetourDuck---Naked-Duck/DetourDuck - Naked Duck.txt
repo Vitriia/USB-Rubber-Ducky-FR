@@ -1,0 +1,22 @@
+DetourDuck_Version2 - Same as version 1 - exception User controls VID and PID of 
+		      USB Stack through a binary file. 
+		      The vid & pid of the USB stack are set from a binary file 
+		      vidpid.bin on the root of the sdcard.
+		      Additionally, added interrupt - so payloads 2,3,4 trigger on 
+		      keypress instead of Ducky's GPIO button
+			*inject2.bin - Numlock
+			*inject3.bin - Capslock
+			*inject4.bin - Scrolllock
+
+
+m_duck.hex (Detour Duck(formerly Naked Duck))
+Based off a request in the forum (Sorry cant remember who asked first?)
+I spent many a month trying to work out if payloads could be delivered based on keyboard LEDs, or on push of a Keyboard button that triggers an LED (eg. CAPS_Lock).
+This firmware supports multiple-payloads:
+    inject.bin - default payload (will always run first)
+    inject2.bin - NUM_LOCK
+    inject3.bin - CAPS_LOCK
+    inject4.bin - SCROLL_LOCK
+Basically, inject.bin will always be triggered on Ducky insertion.
+inject2/3/4.bin is triggered by ensuring only Num_Lock/Caps_Lock/Scroll_Lock Keyboard LED is lit, followed by pushing the button on the Ducky.
+This projects Firmware was originally nicknamed * The Naked Duck / Naked Ducky Edition * as the Ducky has to be naked for you to push the button and trigger the 2nd/3rd payload. Version 2 developments, mean the Ducky can now trigger on solely lit LEDs (if multiple LEDs are lit the last LED will take priority)
