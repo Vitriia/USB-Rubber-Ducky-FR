@@ -1,0 +1,1 @@
+Type CAPS_LOCK 4x to trigger the PAYLOAD
