@@ -1,0 +1,5 @@
+With support appearing to originally dwindle, and a private side project. USB.hex turns the Ducky into a USB Mass Storage Device.
+
+Originally mocked, as useless; Some people missed the potential/purpose of this project. Originally used to bypass device-control software that would black list/whitelist USB devices based off VID and PID codes. As the Ducky is programmable, so-long-as a valid VID/PID device class was used, the Ducky could bypass popular device-control software.
+
+Once I had my fun (few months to be honest), I decided to release this publicly, as I thought people were getting upset with the progress on the Ducky. At least people could convert their Duck into a useful USB drive, rather than have a failed project stuck in a drawer (Folks had forked out originally $80(USD)).
