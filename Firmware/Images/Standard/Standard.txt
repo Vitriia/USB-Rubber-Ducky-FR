@@ -1,0 +1,1 @@
+Original duck firmware, enhanced to work on all Operating System's (Win,Unix,OSX,Android,+).
